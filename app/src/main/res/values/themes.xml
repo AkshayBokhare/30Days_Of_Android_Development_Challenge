@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Base.Theme.Assignment_1ShowTechnology" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--PrimaryBrandColor.-->
+        <item name="colorPrimary">@color/purple500</item>
+        <item name="colorPrimaryVariant">@color/purple700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!--SecondaryBrandColor.-->
+        <item name="colorSecondary">@color/teal200</item>
+        <item name="colorSecondaryVariant">@color/teal700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!--statusBarColor.-->
+        <item name="android:statusBarColor">@color/pr</item>
+    </style>
+
+
+
+
+    <style name="Theme.Assignment_1ShowTechnology" parent="Base.Theme.Assignment_1ShowTechnology" />
+</resources>

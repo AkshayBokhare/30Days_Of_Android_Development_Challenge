@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1039651091047",
+    "project_id": "user-validation-e0b34",
+    "storage_bucket": "user-validation-e0b34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039651091047:android:a56158fc8586d265f35ac2",
+        "android_client_info": {
+          "package_name": "com.nts.crudoperationwithfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdiNrww9EM-lMFBxE4enQdg0ALtmMEZJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

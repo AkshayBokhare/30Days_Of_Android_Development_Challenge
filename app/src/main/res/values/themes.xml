@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CRUDOperationWithFirebase" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Color . -->
+        <item name="colorPrimary">@color/purple500</item>
+        <item name="colorPrimaryVariant">@color/purple700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary Brand Color . -->
+        <item name="colorSecondary">@color/teal200</item>
+        <item name="colorSecondaryVariant">@color/teal700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- status Bar Color . -->
+        <item name="android:statusBarColor">#F1D53E</item>
+    </style>
+    <style name="Theme.CRUDOperationWithFirebase" parent="Base.Theme.CRUDOperationWithFirebase" />
+</resources>

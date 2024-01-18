@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black"
+
+        app:startIconDrawable="@drawable/search">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_Search"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textCursorDrawable="@null"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF5722"
+        android:orientation="horizontal"></LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="2dp"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/sel"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#FF5722"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:paddingStart="1dp">
+
+
+      <Button
+          android:id="@+id/productCatogories"
+          android:layout_width="wrap_content"
+          android:layout_height="30dp"
+          android:text="PRODUCT CATOGORIES"
+          android:textSize="10dp"
+          android:textStyle="bold"
+          android:background="@drawable/custtom_button"></Button>
+
+      <Button
+          android:id="@+id/product_viewAll"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:text="ViewAll"
+          android:textSize="10dp"
+          android:textStyle="bold"
+          android:background="@drawable/custtom_button"
+          android:layout_marginStart="90dp"></Button>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#FF5722"
+        android:orientation="horizontal"></LinearLayout>
+
+    <FrameLayout
+    android:id="@+id/frame_layout"
+       android:layout_width="match_parent"
+         android:layout_height="440dp">
+
+    </FrameLayout>
+
+    <!--    ///////////////////////////////////-->
+<!--    <FrameLayout-->
+<!--        android:id="@+id/frame_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="440dp">-->
+<!--        <LinearLayout-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_margin="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/watch"></ImageView>-->
+<!--            <ImageView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/men"-->
+<!--                android:layout_marginStart="5dp">-->
+<!--            </ImageView>-->
+<!--            <ImageView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/meckup"-->
+<!--                android:layout_marginStart="5dp">-->
+<!--            </ImageView>-->
+<!--            <ImageView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/women"-->
+<!--                android:layout_marginStart="5dp">-->
+<!--            </ImageView>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="120dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="40dp"-->
+<!--                android:text="Watch"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="50dp"-->
+<!--                android:text="Men"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="70dp"-->
+<!--                android:text="Meckup"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="30dp"-->
+<!--                android:text="Women"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--        </LinearLayout>-->
+<!--        &lt;!&ndash;    ///////////////////////////////////&ndash;&gt;-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_margin="10dp">-->
+
+<!--            <ImageView-->
+
+<!--                android:layout_marginTop="150dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/books"></ImageView>-->
+<!--            <ImageView-->
+<!--                android:layout_marginTop="150dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/bag"-->
+<!--                android:layout_marginStart="5dp">-->
+<!--            </ImageView>-->
+<!--            <ImageView-->
+<!--                android:layout_marginTop="150dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/glass"-->
+<!--                android:layout_marginStart="5dp">-->
+<!--            </ImageView>-->
+<!--            <ImageView-->
+<!--                android:layout_marginTop="150dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/shoes"-->
+<!--                android:layout_marginStart="5dp">-->
+<!--            </ImageView>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="260dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="40dp"-->
+<!--                android:text="Books"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="50dp"-->
+<!--                android:text="Bags"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="70dp"-->
+<!--                android:text="Glass"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="50dp"-->
+<!--                android:text="Shoes"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--        </LinearLayout>-->
+<!--        &lt;!&ndash;    ///////////////////////////////////&ndash;&gt;-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="160dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_margin="10dp">-->
+
+<!--            <ImageView-->
+
+<!--                android:layout_marginTop="280dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/sonytv"></ImageView>-->
+<!--            <ImageView-->
+<!--                android:layout_marginTop="280dp"-->
+
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/toys"-->
+<!--                android:layout_marginStart="5dp">-->
+<!--            </ImageView>-->
+<!--            <ImageView-->
+<!--                android:layout_marginTop="280dp"-->
+
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:src="@drawable/smartphone"-->
+<!--                android:layout_marginStart="5dp">-->
+<!--            </ImageView>-->
+
+<!--            <ImageView-->
+<!--                android:layout_marginTop="280dp"-->
+<!--                android:layout_width="96dp"-->
+<!--                android:layout_height="96dp"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:src="@drawable/kids"></ImageView>-->
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="400dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="40dp"-->
+<!--                android:text="TV"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="50dp"-->
+<!--                android:text="Toys"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="70dp"-->
+<!--                android:text="SmartPhone"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="30dp"-->
+<!--                android:text="Kids"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp"-->
+<!--                android:textStyle="bold"></TextView>-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash;    ///////////////////////////////////&ndash;&gt;-->
+
+<!--    </FrameLayout>-->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#A7FFEB"
+            app:menu="@menu/items">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</LinearLayout>
+
+
+
+</LinearLayout>
+
+

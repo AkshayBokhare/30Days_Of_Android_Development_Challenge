@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatogoriesFragment">
+
+    <FrameLayout
+        android:id="@+id/frame_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="440dp">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/watch"></ImageView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/men"
+                android:layout_marginStart="5dp">
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/meckup"
+                android:layout_marginStart="5dp">
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/women"
+                android:layout_marginStart="5dp">
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="Watch"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="Men"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="Meckup"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Women"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+        </LinearLayout>
+        <!--    ///////////////////////////////////-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+
+                android:layout_marginTop="150dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/books"></ImageView>
+            <ImageView
+                android:layout_marginTop="150dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/bag"
+                android:layout_marginStart="5dp">
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="150dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/glass"
+                android:layout_marginStart="5dp">
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="150dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/shoes"
+                android:layout_marginStart="5dp">
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="260dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="Books"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="Bags"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="Glass"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="Shoes"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+        </LinearLayout>
+        <!--    ///////////////////////////////////-->
+
+        <LinearLayout
+            android:layout_marginTop="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+
+                android:layout_marginTop="280dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/sonytv"></ImageView>
+            <ImageView
+                android:layout_marginTop="280dp"
+
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/toys"
+                android:layout_marginStart="5dp">
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="280dp"
+
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/smartphone"
+                android:layout_marginStart="5dp">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginTop="280dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/kids"></ImageView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="400dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="TV"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="Toys"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="SmartPhone"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Kids"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck"></TextView>
+
+        </LinearLayout>
+
+        <!--    ///////////////////////////////////-->
+
+    </FrameLayout>
+
+
+
+</FrameLayout>
